@@ -1,0 +1,60 @@
+h1{
+    color: wheat;
+    text-align: center;
+}
+
+
+#mainDiv{
+    width: 350px;
+    height: 400px;
+    background-color: slategray;
+    margin: auto;
+    padding-top: 25px;
+}
+
+#screenDiv{
+    width: 300px;
+    height: 50px;
+    margin: auto;
+    background: aqua;
+    color: rgb(0, 58, 3);
+    font-family: sans-serif;
+    font-size: 22px;
+    padding: 10px;
+}
+
+#screenText{
+    position: relative;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+}
+
+#buttonsDiv{
+    background-color: azure;
+    width: 300px;
+    height: 220px;
+    margin: auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+.button{
+    width: 70px;
+    height: 30px;
+    background-color: cornflowerblue;
+    font-family: sans-serif;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 20px;
+}
+
+.button:hover{
+    background-color: blue;
+    color: chocolate;
+    cursor: pointer;
+}
